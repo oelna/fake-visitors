@@ -1,0 +1,35 @@
+
+html {
+	font: 150%/1.4 -system-ui, Helvetica, sans-serif;
+	color: #000;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h2 {
+	font-size: 1.2em;
+	margin-bottom: 0;
+}
+
+.claim {
+	font-weight: bold;
+	margin-top: 0;
+}
+
+#projects {
+	width: 60%;
+	margin: 10vh auto 0;
+	padding: 0;
+}
+
+#projects li {
+	margin: 0;
+	list-style: none;
+}
+
+#projects li + li {
+	border-top: 0.1em solid #000;
+}
